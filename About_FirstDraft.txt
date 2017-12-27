@@ -1,0 +1,44 @@
+﻿Motivation: 
+        Personalized smiley suggestion by emotion prediction. Emotion detection and personalizing the mapping of smileys to the emotions are the main problems we are trying to look at. 
+
+
+It can also be used to generate smileys based on the emotions. Given the emotions, design a modal to represent the emotions and generate smiley to all the spectrum of emotions possible trying to make them as real as possible. Again, we are only looking at the text messages.
+
+
+So we start by plotting the basic structure
+Ideas:
+1. Should be friendly for casual texting (Start with general texting).
+2. Should show the intensity or degree of a certain emotion.
+   1. How should different degrees look like?
+   2. Generate smileys
+   3.       3)  Federated model for learning.
+      4) Is any other mode of detecting emotion possible? Like typing speed or gyroscope option of the mobile.
+      5)         Use ontologies to design and represent the emotions. 
+1. Try GANs to automatically generate some structures of smileys.
+2. Read the filter construction of PRISMA
+      6) Ontology, NLP, ML, psychology, computer vision are the areas we are trying to cover.
+
+
+Main Problems: 
+
+
+1. Emotion detection from words.
+2. Emoji mapping - Dictionary Learning (Federated learning to personalize for each)
+3. Modelling emotions as a function of basic emotions
+4. Emoji generation based on emotion. -- Rahul
+
+
+
+
+Tools required:
+1. Keras and Tensorflow for model training.
+2. Find out NLP tools. (Nltk)
+3. Owl.
+
+
+Applications:
+1. Make texting more expressive.
+2. More smileys for people to play around with.
+3. Generating objective text from normal text ridding it of emotions. 
+4. Maybe : Produce more interpretable emotions to users.
+5. Modify the existing emojis for better capturing the user emotions.
