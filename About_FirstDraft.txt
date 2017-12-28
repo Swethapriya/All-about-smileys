@@ -27,7 +27,8 @@ Main Problems:
 3. Modelling emotions as a function of basic emotions
 4. Emoji generation based on emotion. -- Rahul
 
-
+More Problems:
+1. Add music to existing emojis. 
 
 
 Tools required:
