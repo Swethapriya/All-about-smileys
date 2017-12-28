@@ -42,3 +42,5 @@ Applications:
 3. Generating objective text from normal text ridding it of emotions. 
 4. Maybe : Produce more interpretable emotions to users.
 5. Modify the existing emojis for better capturing the user emotions.
+6. Calculate a persons general Emotional disposition. 
+7. Emotion prediction.
