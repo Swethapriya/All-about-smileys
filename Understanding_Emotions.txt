@@ -1,0 +1,80 @@
+Emotion is often the driving force behind motivation, positive or negative. This one sentence explains how prominent a role emotions play. 
+The original role of emotions was to motivate adaptive behaviors that in the past would have contributed to the survival of humans. Emotions are
+responses to significant internal and external events.The word "emotion" dates back to 1579, when it was adapted from the French word émouvoir, which
+means "to stir up".
+
+Moods are feelings that tend to be less intense than emotions and that often lack a contextual stimulus. Emotions are dependent on context. Since we
+are dealing with text messages that are interactive and carry context, emotions is the right term to use. There many similar terms like temperament,
+personality, disposition etc., We'll try to investigate and see which term is the perfect to our current context. For now we proceed to continue
+using the term "emotion" for it seems to convey the intention fairly enough. 
+
+However, its important to consider mood into account while evaluating emotions. Mood becomes nondisposable when we are trying to do emotion 
+prediction. For modelling emotions alone, mood can be safely overlooked. 
+
+Emotion prediction/analysis will be significantly different in one-on-one conversations and group conversations. In conversation so many other factors might come into picture. For now, we will be concentrating on one-on-one conversations.
+
+Emotion can be differentiated from a number of similar constructs within the field of affective neuroscience.Affective neuroscience is the study of 
+the neural mechanisms of emotion. This interdisciplinary field combines neuroscience with the psychological study of personality, emotion, and mood.
+The existence of so-called 'basic emotions' and their defining attributes represents a long lasting and yet unsettled issue in psychology.
+
+Scherer's components processing model of emotion:
+
+Cognitive appraisal: provides an evaluation of events and objects.
+Bodily symptoms: the physiological component of emotional experience.
+Action tendencies: a motivational component for the preparation and direction of motor responses.
+Expression: facial and vocal expression almost always accompanies an emotional state to communicate reaction and intention of actions.
+Feelings: the subjective experience of emotional state once it has occurred.
+
+If we talk in terms of Scherer's model, we are trying to deal with the "Expression" part of the emotion - the emojis as we call them.
+
+Basic Emotions:
+
+Paul Ekman has supported the view that emotions are discrete, measurable, and physiologically distinct.  His research findings led him to classify
+six emotions as basic: anger, disgust, fear, happiness, sadness and surprise.
+
+Robert Plutchik agreed with Ekman's biologically driven perspective but developed the "wheel of emotions", suggesting eight primary emotions grouped
+on a positive or negative basis: joy versus sadness; anger versus fear; trust versus disgust; and surprise versus anticipation.
+
+The emotional experiences are divided into two dimensions known as valence (how negative or positive the experience feels) and arousal (how energized
+or enervated the experience feels). These two dimensions can be depicted on a 2D coordinate map.Valence, as used in psychology, especially in
+discussing emotions, means the intrinsic attractiveness/"good"-ness (positive valence) or averseness/"bad"-ness (negative valence) of an event,
+object, or situation.
+
+
+There's a chicken or egg analogy in emotions too. Emotions or physiological respone. The causation, correlation. Some theories say emotion causes the 
+physiological response while some say that physiological response cause the emotions.
+
+Robert.C.Solomon claims that emotions are judgments. Counter Argument: The idea that a judgment that something is fearsome can occur with or without 
+emotion, so judgment cannot be identified with emotion. 
+
+In some contexts, the expression of emotion (both voluntary and involuntary) could be seen as strategic moves in the transactions between different 
+organisms.emotion is an action-oriented form of skillful engagement with the world.
+
+Lövheim proposed a direct relation between specific combinations of the levels of the signal substances dopamine, noradrenaline and serotonin and eight basic emotions. A model was presented where the signal substances form the axes of a coordinate system, and the eight basic emotions according to Silvan Tomkins are placed in the eight corners. Anger is, according to the model, for example produced by the combination of low serotonin, high dopamine and high noradrenaline.
+
+There is ample evidence that the left prefrontal cortex is activated by stimuli that cause positive approach. If attractive stimuli can selectively 
+activate a region of the brain, then logically the converse should hold, that selective activation of that region of the brain should cause a 
+stimulus to be judged more positively. This was demonstrated for moderately attractive visual stimuli and replicated and extended to include negative 
+stimuli.However, the assumption that negative emotions will activate the right prefrontal cortex is not verified. Some models predict anger in left 
+while some predict it to right. The question of whether or not anger is a negative emotion is in itself a debatable topic. We have philosophers 
+saying "Hate is not the opposite of love, indifference is" is an example that encourages us to understand emotions based on biology than our 
+pre-judiced out look. We can call biology the truth and learn psychology from it or vice-versa. We might have to choose one of the both approaches as 
+we go ahead. For now we will choose not to adhere to any of the models. 
+
+Bud Craig in 2003 distinguishes two classes of emotion: "classical" emotions such as love, anger and fear that are evoked by environmental stimuli, 
+and "homeostatic emotions" – attention-demanding feelings evoked by body states, such as pain, hunger and fatigue, that motivate behavior (
+withdrawal, eating or resting in these examples) aimed at maintaining the body's internal milieu at its ideal state.
+
+
+Vocab:
+1. NeuroImaging
+2. Two factor Theory
+3. Affective events Theory
+4. Situated perspective on emotion (Situationism)
+5. Pheromones
+6. Action tendency model
+7. Homeostatis
+8. Primordial emotios
+9. Emotional Labour
+10. Music psychology
+11. Ethology
