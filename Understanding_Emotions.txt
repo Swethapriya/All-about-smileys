@@ -11,10 +11,10 @@ using the term "emotion" for it seems to convey the intention fairly enough.
 However, its important to consider mood into account while evaluating emotions. Mood becomes nondisposable when we are trying to do emotion 
 prediction. For modelling emotions alone, mood can be safely overlooked. 
 
-Emotion prediction/analysis will be significantly different in one-on-one conversations and group conversations. In conversation so many other factors might come into picture. For now, we will be concentrating on one-on-one conversations.
+Emotion prediction/analysis will be significantly different in one-on-one conversations and group conversations. In group conversation so many other factors might come into picture. For now, we will be concentrating on one-on-one conversations.
 
 Emotion can be differentiated from a number of similar constructs within the field of affective neuroscience.Affective neuroscience is the study of 
-the neural mechanisms of emotion. This interdisciplinary field combines neuroscience with the psychological study of personality, emotion, and mood.
+the neural mechanisms of emotion. This interdisciplinary fiel	d combines neuroscience with the psychological study of personality, emotion, and mood.
 The existence of so-called 'basic emotions' and their defining attributes represents a long lasting and yet unsettled issue in psychology.
 
 Scherer's components processing model of emotion:
@@ -36,9 +36,7 @@ Robert Plutchik agreed with Ekman's biologically driven perspective but develope
 on a positive or negative basis: joy versus sadness; anger versus fear; trust versus disgust; and surprise versus anticipation.
 
 The emotional experiences are divided into two dimensions known as valence (how negative or positive the experience feels) and arousal (how energized
-or enervated the experience feels). These two dimensions can be depicted on a 2D coordinate map.Valence, as used in psychology, especially in
-discussing emotions, means the intrinsic attractiveness/"good"-ness (positive valence) or averseness/"bad"-ness (negative valence) of an event,
-object, or situation.
+or enervated the experience feels). These two dimensions can be depicted on a 2D coordinate map.
 
 
 There's a chicken or egg analogy in emotions too. Emotions or physiological respone. The causation, correlation. Some theories say emotion causes the 
@@ -78,3 +76,5 @@ Vocab:
 9. Emotional Labour
 10. Music psychology
 11. Ethology
+12. Meta-emotion
+13. Affective computing
