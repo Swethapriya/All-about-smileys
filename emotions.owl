@@ -13,6 +13,125 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#AngerQuotient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#AngerQuotient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#DisgustQuotient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#DisgustQuotient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#FearQuotient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#FearQuotient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#HappinessQuotient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#HappinessQuotient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#SadnessQuotient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#SadnessQuotient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#SurpriseQuotient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#SurpriseQuotient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -24,6 +143,15 @@
     <!-- http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#BasicEmotions -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#BasicEmotions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#ComplexEmotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#ComplexEmotions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#ComplexEmotions">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
     </owl:Class>
     
@@ -50,6 +178,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Anger">
         <rdf:type rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#BasicEmotions"/>
+        <AngerQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</AngerQuotient>
+        <DisgustQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</DisgustQuotient>
+        <FearQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</FearQuotient>
+        <HappinessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</HappinessQuotient>
+        <SadnessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SadnessQuotient>
+        <SurpriseQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SurpriseQuotient>
     </owl:NamedIndividual>
     
 
@@ -58,6 +192,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Disgust">
         <rdf:type rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#BasicEmotions"/>
+        <AngerQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</AngerQuotient>
+        <DisgustQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</DisgustQuotient>
+        <FearQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</FearQuotient>
+        <HappinessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</HappinessQuotient>
+        <SadnessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SadnessQuotient>
+        <SurpriseQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SurpriseQuotient>
     </owl:NamedIndividual>
     
 
@@ -66,6 +206,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Fear">
         <rdf:type rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#BasicEmotions"/>
+        <AngerQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</AngerQuotient>
+        <DisgustQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</DisgustQuotient>
+        <FearQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</FearQuotient>
+        <HappinessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</HappinessQuotient>
+        <SadnessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SadnessQuotient>
+        <SurpriseQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SurpriseQuotient>
     </owl:NamedIndividual>
     
 
@@ -74,6 +220,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Happiness">
         <rdf:type rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#BasicEmotions"/>
+        <AngerQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</AngerQuotient>
+        <DisgustQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</DisgustQuotient>
+        <FearQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</FearQuotient>
+        <HappinessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</HappinessQuotient>
+        <SadnessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SadnessQuotient>
+        <SurpriseQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SurpriseQuotient>
     </owl:NamedIndividual>
     
 
@@ -82,6 +234,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Sadness">
         <rdf:type rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#BasicEmotions"/>
+        <AngerQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</AngerQuotient>
+        <DisgustQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</DisgustQuotient>
+        <FearQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</FearQuotient>
+        <HappinessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</HappinessQuotient>
+        <SadnessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</SadnessQuotient>
+        <SurpriseQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SurpriseQuotient>
     </owl:NamedIndividual>
     
 
@@ -90,7 +248,35 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Surprise">
         <rdf:type rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#BasicEmotions"/>
+        <AngerQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</AngerQuotient>
+        <DisgustQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</DisgustQuotient>
+        <FearQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</FearQuotient>
+        <HappinessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</HappinessQuotient>
+        <SadnessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SadnessQuotient>
+        <SurpriseQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</SurpriseQuotient>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Anger"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Disgust"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Fear"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Happiness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Sadness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Surprise"/>
+        </owl:distinctMembers>
+    </rdf:Description>
 </rdf:RDF>
 
 
