@@ -7,3 +7,7 @@ Sub problems:
 2) Tagging each of them with the basic emotions.
 3) Test on various data samples from songs, emails, tweets, novel passages etc.,
 4) Furthur improvement 
+
+Prob 1&2:
+
+Using twitter and hashtags of the basic emotions happy,anger,fear,disgust,surprise,sadness and their variations(?) and pos tagging for the procurement of the dictionary. And we use the hashtags used as the tags to the words.
