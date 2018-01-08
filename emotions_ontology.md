@@ -9,13 +9,15 @@ Basic Emotions and complex emotions are disjoint.
 
 Data Properties:
 
-6 properties(Quotients) are defined. These are used to define an emotion. These properties are for emotions in general. They have a range of 0-100.They are 
+6 properties(Quotients) are defined. These are used to define an emotion. These properties are for emotions in general. They have a range of 0-100, fractions allowed.They are 
 1. AngerQuotient
 2. DisgustQuotient
 3. FearQuotient
 4. SadnessQuotient
 5. HappinessQuotient
 6. SurpriseQuotient
+
+EquiMotion is defined as a complex emotion with equal basic emotion quotients.
 
 Individuals:
 

@@ -27,10 +27,13 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
         <rdfs:range>
             <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
                 <owl:withRestrictions rdf:parseType="Collection">
                     <rdf:Description>
-                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
                     </rdf:Description>
                 </owl:withRestrictions>
             </rdfs:Datatype>
@@ -45,10 +48,13 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
         <rdfs:range>
             <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
                 <owl:withRestrictions rdf:parseType="Collection">
                     <rdf:Description>
-                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
                     </rdf:Description>
                 </owl:withRestrictions>
             </rdfs:Datatype>
@@ -63,10 +69,13 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
         <rdfs:range>
             <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
                 <owl:withRestrictions rdf:parseType="Collection">
                     <rdf:Description>
-                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
                     </rdf:Description>
                 </owl:withRestrictions>
             </rdfs:Datatype>
@@ -81,10 +90,13 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
         <rdfs:range>
             <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
                 <owl:withRestrictions rdf:parseType="Collection">
                     <rdf:Description>
-                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
                     </rdf:Description>
                 </owl:withRestrictions>
             </rdfs:Datatype>
@@ -99,10 +111,13 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
         <rdfs:range>
             <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
                 <owl:withRestrictions rdf:parseType="Collection">
                     <rdf:Description>
-                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
                     </rdf:Description>
                 </owl:withRestrictions>
             </rdfs:Datatype>
@@ -117,10 +132,13 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#Emotions"/>
         <rdfs:range>
             <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
                 <owl:withRestrictions rdf:parseType="Collection">
                     <rdf:Description>
-                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</xsd:maxExclusive>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
                     </rdf:Description>
                 </owl:withRestrictions>
             </rdfs:Datatype>
@@ -198,6 +216,20 @@
         <HappinessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</HappinessQuotient>
         <SadnessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SadnessQuotient>
         <SurpriseQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</SurpriseQuotient>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#EquiMotion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#EquiMotion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/i340828/ontologies/2018/0/untitled-ontology-4#ComplexEmotions"/>
+        <AngerQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.67</AngerQuotient>
+        <DisgustQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.67</DisgustQuotient>
+        <FearQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.67</FearQuotient>
+        <HappinessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.67</HappinessQuotient>
+        <SadnessQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.67</SadnessQuotient>
+        <SurpriseQuotient rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.67</SurpriseQuotient>
     </owl:NamedIndividual>
     
 
