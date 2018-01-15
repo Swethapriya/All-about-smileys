@@ -45,3 +45,6 @@ Applications:
 5. Modify the existing emojis for better capturing the user emotions.
 6. Calculate a persons general Emotional disposition. 
 7. Emotion prediction.
+
+Additional thoughts:
+	We can use the twitter to map the emojis to emotions to get a person's emotion - emoji map
