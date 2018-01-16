@@ -27,7 +27,7 @@ FEAR = open("fear_tweets.txt","a")
 SURPRISE = open("surprise_tweets.txt","a")
 DISGUST = open("disgust_tweets.txt","a")
 
-tweets_data_path = 'sample_tweets.txt'
+tweets_data_path = 'tweets.txt'
 
 tweets_data = []
 tweets_file = open(tweets_data_path, "r")
@@ -35,7 +35,31 @@ tweets_file = open(tweets_data_path, "r")
 for line in tweets_file:
     try:
         tweet = json.loads(line)
-        tweets_data.append(tweet)
+        clean_tweet = tweet['text'].encode("utf-8")
+        h = word_in_text('happy',clean_tweet)
+        sa = word_in_text('sad',clean_tweet)
+        su = word_in_text('surprise',clean_tweet)
+        a = word_in_text('angry',clean_tweet)
+        d = word_in_text('disgust',clean_tweet)
+        f = word_in_text('fear',clean_tweet)
+        if(h != ""):
+        	HAPPY.write(h)
+        	HAPPY.write("\n")
+        if(sa != ""):
+        	SAD.write(sa)
+        	SAD.write("\n")
+        if(su != ""):
+        	SURPRISE.write(su)
+        	SURPRISE.write("\n")
+        if(a != ""):
+        	ANGRY.write(a)
+        	ANGRY.write("\n")
+        if(d != ""):
+        	DISGUST.write(d)
+        	DISGUST.write("\n")
+        if(f != ""):
+        	FEAR.write(f)
+        	FEAR.write("\n")
     except:
         continue
 
@@ -45,35 +69,35 @@ for line in tweets_file:
 # x = map(lambda tweet: tweet['lang'].encode("utf-8"), tweets_data)
 # print(list(x))
 
-tweets = pd.DataFrame()
-tweets['text'] = pd.Series(list(map(lambda tweet: tweet['text'].encode("utf-8"), tweets_data))).values
-tweets['lang'] = pd.Series(list(map(lambda tweet: tweet['lang'].encode("utf-8"), tweets_data))).values
-tweets['country'] = pd.Series(list(map(lambda tweet: tweet['place']['country'].encode("utf-8") if tweet['place'] != None else None, tweets_data))).values
+# tweets = pd.DataFrame()
+# tweets['text'] = pd.Series(list(map(lambda tweet: tweet['text'].encode("utf-8"), tweets_data))).values
+# tweets['lang'] = pd.Series(list(map(lambda tweet: tweet['lang'].encode("utf-8"), tweets_data))).values
+# tweets['country'] = pd.Series(list(map(lambda tweet: tweet['place']['country'].encode("utf-8") if tweet['place'] != None else None, tweets_data))).values
 
-tweets['happy'] = tweets['text'].apply(lambda tweet: word_in_text('happy', tweet))
-tweets['sad'] = tweets['text'].apply(lambda tweet: word_in_text('sad', tweet), tweets_data)
-tweets['angry'] = tweets['text'].apply(lambda tweet: word_in_text('angry', tweet), tweets_data)
-tweets['surprise'] = tweets['text'].apply(lambda tweet: word_in_text('surprise', tweet), tweets_data)
-tweets['disgust'] = tweets['text'].apply(lambda tweet: word_in_text('disgust', tweet), tweets_data)
-tweets['fear'] = tweets['text'].apply(lambda tweet: word_in_text('fear', tweet), tweets_data)
+# tweets['happy'] = tweets['text'].apply(lambda tweet: word_in_text('happy', tweet))
+# tweets['sad'] = tweets['text'].apply(lambda tweet: word_in_text('sad', tweet))
+# tweets['angry'] = tweets['text'].apply(lambda tweet: word_in_text('angry', tweet))
+# tweets['surprise'] = tweets['text'].apply(lambda tweet: word_in_text('surprise', tweet))
+# tweets['disgust'] = tweets['text'].apply(lambda tweet: word_in_text('disgust', tweet))
+# tweets['fear'] = tweets['text'].apply(lambda tweet: word_in_text('fear', tweet))
 
-for i in tweets['happy']:
-	HAPPY.write(i)
+# for i in tweets['happy']:
+# 	HAPPY.write(i)
 
-for i in tweets['sad']:
-	SAD.write(i)
+# for i in tweets['sad']:
+# 	SAD.write(i)
 
-for i in tweets['fear']:
-	FEAR.write(i)
+# for i in tweets['fear']:
+# 	FEAR.write(i)
 
-for i in tweets['surprise']:
-	SURPRISE.write(i)
+# for i in tweets['surprise']:
+# 	SURPRISE.write(i)
 
-for i in tweets['disgust']:
-	DISGUST.write(i)
+# for i in tweets['disgust']:
+# 	DISGUST.write(i)
 
-for i in tweets['angry']:
-	ANGRY.write(i)
+# for i in tweets['angry']:
+# 	ANGRY.write(i)
 
 HAPPY.close()
 SURPRISE.close()
