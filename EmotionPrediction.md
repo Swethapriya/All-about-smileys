@@ -20,7 +20,6 @@ Since we have extracted the tweets with standalone emotion words happy,sad,.. an
 
 Common Approach:
 Common nouns like "birthday", "new year", "death", "scam" also provide a lot of information about the emotions and are not to be discarded. It's proper nouns that are to be discarded. And this filtering of common nouns from proper nouns can be done using TF-IDF parameter.
-remove urls.
 remove &gt
 Other Hashtags with actual words are important
 We are including retweets which means, the same tweet might be considered a large number of times. This is fine in a way that a tweet with more retweets is grammatically correct. However, the downside is that the presence of the word happy doesn't necessarily mean a happy tweet and the retweets add more weight to such a false happy tweet. Also, the retweets extracted are not exhaustive, making the calculation unreliable.
