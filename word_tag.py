@@ -2,6 +2,10 @@ import json
 import pandas as pd
 import matplotlib.pyplot as plt
 import re
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+
 
 def clean(text):
 	# text = ' '.join(list(filter(lambda x:x[0:4]!='http', text.split())))
@@ -19,5 +23,9 @@ for line in HAPPY:
     try:
         clean_tweet = clean(line)
         print(clean_tweet)
+        tokens = nltk.word_tokenize(clean_tweet)
+        print(tokens)
+        tags = nltk.pos_tag(tokens)
+        print(tags)
     except:
         continue
