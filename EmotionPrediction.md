@@ -19,6 +19,9 @@ Extracting words from tweets:
 Since we have extracted the tweets with standalone emotion words happy,sad,.. and not just those in which these occur with hashtags(like #happy, #sad..), we might have to use different approaches for these two kind of tweets.
 
 Common Approach:
+remove "^^" from tweets - smiley
+replace urls by "url" and ignore the tags to urls
+Ignore tags of articles
 Common nouns like "birthday", "new year", "death", "scam" also provide a lot of information about the emotions and are not to be discarded. It's proper nouns that are to be discarded. And this filtering of common nouns from proper nouns can be done using TF-IDF parameter.
 remove &gt
 Other Hashtags with actual words are important
