@@ -9,6 +9,7 @@ def clean(text):
 		text = text[3:]
 	text = text.decode("utf-8").encode("ascii", errors="ignore").decode()
 	text = ' '.join(list(filter(lambda x:x[0]!='@', text.split())))
+	text = text.strip("$")
 	return text
 
 def word_in_text(word, text):
